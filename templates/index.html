@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Eco-Nutrition Analysis - Researcher Edition</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root { --co2-dark: #2c3e50; --water-blue: #2980b9; --land-green: #27ae60; --eutro-purple: #8e44ad; }
+        .metric-box { border-radius: 12px; padding: 20px; color: white; text-align: center; transition: transform 0.2s; }
+        .metric-box:hover { transform: translateY(-5px); }
+        .bg-co2 { background-color: var(--co2-dark); } .bg-water { background-color: var(--water-blue); }
+        .bg-land { background-color: var(--land-green); } .bg-eutro { background-color: var(--eutro-purple); }
+
+        /* Suggestions UI */
+        .suggestions { border: 1px solid #dee2e6; max-height: 200px; overflow-y: auto; position: absolute;
+                       background: #fff; z-index: 1000; width: calc(100% - 24px); border-radius: 4px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .suggestion-item { padding: 10px 15px; cursor: pointer; border-bottom: 1px solid #f8f9fa; }
+        .suggestion-item:last-child { border-bottom: none; }
+        .suggestion-item:hover { background: #e9ecef; }
+
+        .ingredient-row { position: relative; margin-bottom: 12px; }
+        .card { border: none; border-radius: 12px; }
+    </style>
+</head>
+<body class="bg-light">
+
+<div class="container mt-4 pb-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="fw-bold text-dark">Eco-Nutrition Analysis</h1>
+    </div>
+
+    <div class="row g-3 mb-4">
+        <div class="col-md-6">
+            <div class="card p-3 shadow-sm h-100">
+                <h6 class="fw-bold text-primary">Local CSV Upload</h6>
+                <p class="small text-muted mb-3">Maps headers like <code>descrip</code> or <code>energ_kcal</code> automatically.</p>
+                <div class="d-flex gap-2">
+                    <input type="file" id="local-file-input" class="form-control form-control-sm">
+                    <button class="btn btn-primary btn-sm px-3" onclick="uploadLocalFile()">Process</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card p-3 shadow-sm h-100">
+                <h6 class="fw-bold text-primary">External Dataset URL</h6>
+                <p class="small text-muted mb-3">Fetch research data directly from remote repositories.</p>
+                <div class="input-group">
+                    <input type="text" id="external-url-input" class="form-control form-control-sm" placeholder="URL to CSV...">
+                    <button class="btn btn-outline-primary btn-sm" onclick="loadExternal()">Load</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mapping-validator" class="card p-3 mb-4 shadow-sm d-none border-start border-primary border-4">
+        <h6 class="fw-bold"><i class="bi bi-cpu"></i> Semantic Mapping Report</h6>
+        <div class="table-responsive">
+            <table class="table table-sm small mb-0">
+                <thead><tr><th>Target Indicator</th><th>CSV Column Found</th><th>AI Confidence</th></tr></thead>
+                <tbody id="mapping-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row g-3 mb-4">
+        <div class="col-md-4">
+            <label class="form-label fw-bold small">Stored Recipes</label>
+            <select class="form-select shadow-sm" id="meal-select" onchange="loadMeal()">
+                <option value="">-- Choose Recipe --</option>
+                {% for m in predefined_meals %}<option value="{{m}}">{{m}}</option>{% endfor %}
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label class="form-label fw-bold small">Baseline Comparison</label>
+            <label for="baseline-select"></label><select class="form-select shadow-sm" id="baseline-select" onchange="calculate()">
+                <option value="mediterranean">Mediterranean Diet Baseline</option>
+                <option value="western">Western Diet Baseline</option>
+            </select>
+        </div>
+        <div class="col-md-4 d-flex align-items-end">
+            <button class="btn btn-success w-100 shadow-sm fw-bold" onclick="optimize()">💡 Find Better Alternatives</button>
+        </div>
+    </div>
+
+    <div class="card p-4 shadow-sm mb-4">
+        <h6 class="fw-bold mb-3">Meal Composition</h6>
+        <div id="rows-container">
+            </div>
+        <button class="btn btn-outline-secondary btn-sm mt-2" onclick="addRow()">+ Add New Ingredient</button>
+    </div>
+
+    <div class="row g-3 text-white mb-4">
+        <div class="col-md-3"><div class="metric-box bg-co2 shadow-sm"><h6>Carbon (kgCO₂e)</h6><h3 id="m-co2" class="mb-0">0.00</h3></div></div>
+        <div class="col-md-3"><div class="metric-box bg-water shadow-sm"><h6>Water (Liters)</h6><h3 id="m-water" class="mb-0">0.00</h3></div></div>
+        <div class="col-md-3"><div class="metric-box bg-land shadow-sm"><h6>Land (m²/yr)</h6><h3 id="m-land" class="mb-0">0.00</h3></div></div>
+        <div class="col-md-3"><div class="metric-box bg-eutro shadow-sm"><h6>Eutro (gPO₄e)</h6><h3 id="m-eutro" class="mb-0">0.00</h3></div></div>
+    </div>
+
+    <div class="row g-4 mb-4">
+        <div class="col-md-6"><div class="card p-3 shadow-sm"><canvas id="chart-nutri"></canvas></div></div>
+        <div class="col-md-6"><div class="card p-3 shadow-sm"><canvas id="chart-co2"></canvas></div></div>
+    </div>
+
+    <div id="opt-results" class="row g-3 mt-2"></div>
+</div>
+
+<script>
+/** * GLOBAL STATE
+ */
+let foods = {{ foods|tojson if foods else '[]' }};
+
+// Chart.js Setup (Keeping your existing configuration)
+const nutriCtx = new Chart(document.getElementById('chart-nutri'), {
+    type: 'doughnut',
+    data: {
+        labels: ['Protein (g)', 'Carbs (g)', 'Fat (g)'],
+        datasets: [{ data: [0,0,0], backgroundColor: ['#27ae60', '#f1c40f', '#e74c3c'], borderPadding: 10 }]
+    },
+    options: { plugins: { title: { display: true, text: 'Nutritional Balance' }, legend: { position: 'bottom' } } }
+});
+
+const co2Ctx = new Chart(document.getElementById('chart-co2'), {
+    type: 'bar',
+    data: { labels: [], datasets: [{ label: 'Impact (kgCO2e)', data: [], backgroundColor: '#2c3e50', borderRadius: 5 }] },
+    options: { indexAxis: 'y', plugins: { title: { display: true, text: 'Climate Impact Breakdown' } } }
+});
+
+/**
+ * UI LOGIC
+ */
+function addRow(name = '', grams = '') {
+    const container = document.getElementById('rows-container');
+    const newRow = document.createElement('div');
+    newRow.className = 'row mb-2 ingredient-row align-items-center';
+    newRow.innerHTML = `
+        <div class="col-md-6 position-relative">
+            <input class="form-control food-input" placeholder="Start typing ingredient..." oninput="showSug(this)" value="${name}">
+            <div class="suggestions d-none"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="input-group">
+                <input type="number" class="form-control grams-input" placeholder="Qty" oninput="calculate()" value="${grams}">
+                <span class="input-group-text">grams</span>
+            </div>
+        </div>
+        <div class="col-md-2 text-end">
+            <button class="btn btn-outline-danger btn-sm px-3" onclick="removeRow(this)">Delete</button>
+        </div>
+    `;
+    container.appendChild(newRow);
+}
+
+function removeRow(btn) {
+    const rows = document.querySelectorAll('.ingredient-row');
+    if (rows.length > 1) { btn.closest('.row').remove(); calculate(); }
+    else { btn.closest('.row').querySelectorAll('input').forEach(i => i.value = ''); calculate(); }
+}
+
+// FIX: Handle Caps Lock and Case Insensitivity in suggestions
+function showSug(input) {
+    // 1. Force user input to lowercase and trim whitespace to handle Caps Lock
+    const val = input.value.toLowerCase().trim();
+    const sugDiv = input.nextElementSibling;
+
+    // Clear previous results
+    sugDiv.innerHTML = '';
+
+    // 2. Guard: If input is empty or the foods list hasn't loaded yet
+    if(!val || !foods || foods.length === 0) {
+        sugDiv.classList.add('d-none');
+        return;
+    }
+
+    // 3. Filter: Check if the search term exists anywhere in the string
+    // Since Python backend sends lowercase keys, we compare lowercase to lowercase
+    const matches = foods.filter(f => {
+        return f.toLowerCase().includes(val);
+    }).slice(0, 10); // Increased to 10 to show more drink prep variations
+
+    if(matches.length > 0) {
+        sugDiv.classList.remove('d-none');
+
+        matches.forEach(f => {
+            const item = document.createElement('div');
+            item.className = 'suggestion-item';
+
+            // 4. UI Polish: Use CSS to handle capitalization for the user
+            // This displays "caffè latte (soy milk)" as "Caffè Latte (Soy Milk)" visually
+            item.style.textTransform = 'capitalize';
+            item.innerText = f;
+
+            item.onclick = () => {
+                input.value = f; // Set exact DB key (lowercase) for the calculate API
+                sugDiv.classList.add('d-none');
+                calculate();
+            };
+            sugDiv.appendChild(item);
+        });
+    } else {
+        sugDiv.classList.add('d-none');
+    }
+}
+
+/**
+ * CORE ENGINE CALLS
+ */
+function calculate() {
+    let ings = [];
+    document.querySelectorAll('.ingredient-row').forEach(r => {
+        // FIX: Ensure the food name sent to backend is trimmed and lowercase
+        let f = r.querySelector('.food-input').value.toLowerCase().trim();
+        let g = r.querySelector('.grams-input').value;
+        if(f && g) ings.push({ food: f, grams: g });
+    });
+
+    if (ings.length === 0) return;
+
+    fetch('/api/calculate', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+            ingredients: ings,
+            baseline: document.getElementById('baseline-select').value,
+            servings: 1
+        })
+    })
+    .then(r => r.json())
+    .then(d => {
+        document.getElementById('m-co2').innerText = d.total_co2.toFixed(2);
+        document.getElementById('m-water').innerText = d.total_water.toFixed(0);
+        document.getElementById('m-land').innerText = d.total_land.toFixed(1);
+        document.getElementById('m-eutro').innerText = d.total_eutro.toFixed(2);
+
+        nutriCtx.data.datasets[0].data = [d.per_serving.protein, d.per_serving.carbs, d.per_serving.fat];
+        nutriCtx.update();
+
+        co2Ctx.data.labels = d.details.map(i => i.food);
+        co2Ctx.data.datasets[0].data = d.details.map(i => i.co2);
+        co2Ctx.update();
+    });
+}
+
+// Updated refresh logic to ensure the internal 'foods' list is lowercase
+function uploadLocalFile() {
+    let fileInput = document.getElementById('local-file-input');
+    if (!fileInput.files[0]) return alert("Please select a CSV file.");
+
+    let formData = new FormData();
+    formData.append('file', fileInput.files[0]);
+
+    fetch('/api/upload_local', { method: 'POST', body: formData })
+    .then(r => r.json())
+    .then(d => {
+        if(d.status === 'success') {
+            const body = document.getElementById('mapping-body');
+            document.getElementById('mapping-validator').classList.remove('d-none');
+            body.innerHTML = '';
+
+            for (let [metric, info] of Object.entries(d.mapping)) {
+                let badgeClass = info.confidence > 0.6 ? 'bg-success' : 'bg-warning';
+                body.innerHTML += `<tr><td>${metric}</td><td><code>${info.column}</code></td><td><span class="badge ${badgeClass}">${(info.confidence * 100).toFixed(0)}%</span></td></tr>`;
+            }
+
+            // Sync the local 'foods' array with the new backend data
+            fetch('/api/search?q=')
+                .then(res => res.json())
+                .then(data => {
+                    foods = data.map(f => f.toLowerCase()); // Ensure JS list is lowercase
+                    alert(`Dataset Ingested: ${d.count} ingredients ready.`);
+                });
+        } else {
+            alert("Upload Failed: " + d.message);
+        }
+    });
+}
+
+function loadMeal() {
+    let m = document.getElementById('meal-select').value;
+    if(!m) return;
+    fetch('/api/get_meal', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({meal: m})
+    })
+    .then(r => r.json())
+    .then(d => {
+        document.getElementById('rows-container').innerHTML = '';
+        // Add row ensures names are handled through calculate() logic
+        d.ingredients.forEach(i => addRow(i.food, i.grams));
+        calculate();
+    });
+}
+
+function optimize() {
+    let ings = [];
+    document.querySelectorAll('.ingredient-row').forEach(r => {
+        let f = r.querySelector('.food-input').value.toLowerCase().trim();
+        let g = r.querySelector('.grams-input').value;
+        if(f && g) ings.push({ food: f, grams: g });
+    });
+
+    fetch('/api/optimize', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ ingredients: ings })
+    })
+    .then(r => r.json())
+    .then(d => {
+        let resDiv = document.getElementById('opt-results');
+        resDiv.innerHTML = d.suggestions.length ? '<h5 class="fw-bold px-2 mt-3 mb-3 w-100 text-primary">Sustainability Swaps</h5>' : '';
+        d.suggestions.forEach(s => {
+            resDiv.innerHTML += `
+                <div class="col-md-4 mb-3">
+                    <div class="card p-3 border-start border-success border-4 shadow-sm">
+                        <p class="mb-2">Replace <b>${s.original}</b> with <b>${s.replacement}</b></p>
+                        <button class="btn btn-sm btn-success w-100" onclick="applySwap('${s.original}', '${s.replacement}')">Apply Swap</button>
+                    </div>
+                </div>`;
+        });
+    });
+}
+
+function applySwap(oldF, newF) {
+    document.querySelectorAll('.ingredient-row').forEach(r => {
+        let input = r.querySelector('.food-input');
+        // Compare lowercase to lowercase to ensure swap happens regardless of current input case
+        if(input.value.toLowerCase().trim() === oldF.toLowerCase().trim()) {
+            input.value = newF;
+        }
+    });
+    calculate();
+    document.getElementById('opt-results').innerHTML = '';
+}
+
+document.addEventListener('DOMContentLoaded', () => addRow());
+</script>
+</body>
+</html>

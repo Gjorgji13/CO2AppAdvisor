@@ -1,0 +1,3593 @@
+[
+    {
+        "recipe_name": "Recipe_1",
+        "servings": 5,
+        "ingredients": [
+            {
+                "food": "pasta",
+                "grams": 243,
+                "co2": 0.44,
+                "calories": 318.33,
+                "protein": 12.15,
+                "carbs": 60.75,
+                "fat": 2.67
+            },
+            {
+                "food": "beef",
+                "grams": 159,
+                "co2": 4.29,
+                "calories": 397.5,
+                "protein": 41.34,
+                "carbs": 0.0,
+                "fat": 23.85
+            },
+            {
+                "food": "tomato",
+                "grams": 243,
+                "co2": 0.27,
+                "calories": 43.74,
+                "protein": 2.19,
+                "carbs": 9.48,
+                "fat": 0.49
+            },
+            {
+                "food": "tofu",
+                "grams": 191,
+                "co2": 0.38,
+                "calories": 145.16,
+                "protein": 15.28,
+                "carbs": 3.63,
+                "fat": 9.17
+            }
+        ],
+        "total_co2": 5.38,
+        "total_calories": 904.73,
+        "total_protein": 70.96,
+        "total_carbs": 73.86,
+        "total_fat": 36.18,
+        "per_serving": {
+            "co2": 1.08,
+            "calories": 180.95,
+            "protein": 14.19,
+            "carbs": 14.77,
+            "fat": 7.24
+        }
+    },
+    {
+        "recipe_name": "Recipe_2",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "tomato sauce",
+                "grams": 231,
+                "co2": 0.23,
+                "calories": 66.99,
+                "protein": 3.23,
+                "carbs": 13.86,
+                "fat": 0.46
+            },
+            {
+                "food": "pasta",
+                "grams": 66,
+                "co2": 0.12,
+                "calories": 86.46,
+                "protein": 3.3,
+                "carbs": 16.5,
+                "fat": 0.73
+            },
+            {
+                "food": "cheese",
+                "grams": 213,
+                "co2": 2.88,
+                "calories": 856.26,
+                "protein": 53.25,
+                "carbs": 2.77,
+                "fat": 70.29
+            },
+            {
+                "food": "pork",
+                "grams": 102,
+                "co2": 1.22,
+                "calories": 246.84,
+                "protein": 27.54,
+                "carbs": 0.0,
+                "fat": 14.28
+            },
+            {
+                "food": "chickpeas",
+                "grams": 290,
+                "co2": 0.2,
+                "calories": 475.6,
+                "protein": 26.1,
+                "carbs": 78.3,
+                "fat": 7.54
+            },
+            {
+                "food": "lettuce",
+                "grams": 87,
+                "co2": 0.02,
+                "calories": 13.05,
+                "protein": 1.22,
+                "carbs": 2.52,
+                "fat": 0.17
+            },
+            {
+                "food": "cucumber",
+                "grams": 69,
+                "co2": 0.03,
+                "calories": 11.04,
+                "protein": 0.48,
+                "carbs": 2.48,
+                "fat": 0.07
+            },
+            {
+                "food": "feta cheese",
+                "grams": 210,
+                "co2": 2.73,
+                "calories": 554.4,
+                "protein": 29.4,
+                "carbs": 8.4,
+                "fat": 44.1
+            }
+        ],
+        "total_co2": 7.43,
+        "total_calories": 2310.64,
+        "total_protein": 144.52,
+        "total_carbs": 124.84,
+        "total_fat": 137.64,
+        "per_serving": {
+            "co2": 3.72,
+            "calories": 1155.32,
+            "protein": 72.26,
+            "carbs": 62.42,
+            "fat": 68.82
+        }
+    },
+    {
+        "recipe_name": "Recipe_3",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "tomato sauce",
+                "grams": 219,
+                "co2": 0.22,
+                "calories": 63.51,
+                "protein": 3.07,
+                "carbs": 13.14,
+                "fat": 0.44
+            },
+            {
+                "food": "cucumber",
+                "grams": 196,
+                "co2": 0.1,
+                "calories": 31.36,
+                "protein": 1.37,
+                "carbs": 7.06,
+                "fat": 0.2
+            },
+            {
+                "food": "lentils",
+                "grams": 264,
+                "co2": 0.13,
+                "calories": 306.24,
+                "protein": 23.76,
+                "carbs": 52.8,
+                "fat": 1.06
+            },
+            {
+                "food": "pasta",
+                "grams": 57,
+                "co2": 0.1,
+                "calories": 74.67,
+                "protein": 2.85,
+                "carbs": 14.25,
+                "fat": 0.63
+            },
+            {
+                "food": "tofu",
+                "grams": 238,
+                "co2": 0.48,
+                "calories": 180.88,
+                "protein": 19.04,
+                "carbs": 4.52,
+                "fat": 11.42
+            }
+        ],
+        "total_co2": 1.03,
+        "total_calories": 656.66,
+        "total_protein": 50.09,
+        "total_carbs": 91.77,
+        "total_fat": 13.74,
+        "per_serving": {
+            "co2": 0.51,
+            "calories": 328.33,
+            "protein": 25.04,
+            "carbs": 45.88,
+            "fat": 6.87
+        }
+    },
+    {
+        "recipe_name": "Recipe_4",
+        "servings": 3,
+        "ingredients": [
+            {
+                "food": "tomato",
+                "grams": 106,
+                "co2": 0.12,
+                "calories": 19.08,
+                "protein": 0.95,
+                "carbs": 4.13,
+                "fat": 0.21
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 271,
+                "co2": 0.27,
+                "calories": 78.59,
+                "protein": 3.79,
+                "carbs": 16.26,
+                "fat": 0.54
+            },
+            {
+                "food": "chicken breast",
+                "grams": 228,
+                "co2": 1.57,
+                "calories": 376.2,
+                "protein": 70.68,
+                "carbs": 0.0,
+                "fat": 8.21
+            },
+            {
+                "food": "beans",
+                "grams": 215,
+                "co2": 0.13,
+                "calories": 746.05,
+                "protein": 45.15,
+                "carbs": 135.45,
+                "fat": 2.58
+            },
+            {
+                "food": "tofu",
+                "grams": 276,
+                "co2": 0.55,
+                "calories": 209.76,
+                "protein": 22.08,
+                "carbs": 5.24,
+                "fat": 13.25
+            },
+            {
+                "food": "cheese",
+                "grams": 95,
+                "co2": 1.28,
+                "calories": 381.9,
+                "protein": 23.75,
+                "carbs": 1.23,
+                "fat": 31.35
+            },
+            {
+                "food": "mushroom",
+                "grams": 133,
+                "co2": 0.04,
+                "calories": 29.26,
+                "protein": 3.99,
+                "carbs": 4.39,
+                "fat": 0.4
+            },
+            {
+                "food": "feta cheese",
+                "grams": 229,
+                "co2": 2.98,
+                "calories": 604.56,
+                "protein": 32.06,
+                "carbs": 9.16,
+                "fat": 48.09
+            }
+        ],
+        "total_co2": 6.94,
+        "total_calories": 2445.4,
+        "total_protein": 202.46,
+        "total_carbs": 175.87,
+        "total_fat": 104.63,
+        "per_serving": {
+            "co2": 2.31,
+            "calories": 815.13,
+            "protein": 67.49,
+            "carbs": 58.62,
+            "fat": 34.88
+        }
+    },
+    {
+        "recipe_name": "Recipe_5",
+        "servings": 1,
+        "ingredients": [
+            {
+                "food": "cucumber",
+                "grams": 200,
+                "co2": 0.1,
+                "calories": 32.0,
+                "protein": 1.4,
+                "carbs": 7.2,
+                "fat": 0.2
+            },
+            {
+                "food": "lettuce",
+                "grams": 117,
+                "co2": 0.02,
+                "calories": 17.55,
+                "protein": 1.64,
+                "carbs": 3.39,
+                "fat": 0.23
+            },
+            {
+                "food": "tofu",
+                "grams": 145,
+                "co2": 0.29,
+                "calories": 110.2,
+                "protein": 11.6,
+                "carbs": 2.76,
+                "fat": 6.96
+            }
+        ],
+        "total_co2": 0.41,
+        "total_calories": 159.75,
+        "total_protein": 14.64,
+        "total_carbs": 13.35,
+        "total_fat": 7.39,
+        "per_serving": {
+            "co2": 0.41,
+            "calories": 159.75,
+            "protein": 14.64,
+            "carbs": 13.35,
+            "fat": 7.39
+        }
+    },
+    {
+        "recipe_name": "Recipe_6",
+        "servings": 1,
+        "ingredients": [
+            {
+                "food": "pork",
+                "grams": 61,
+                "co2": 0.73,
+                "calories": 147.62,
+                "protein": 16.47,
+                "carbs": 0.0,
+                "fat": 8.54
+            },
+            {
+                "food": "olive oil",
+                "grams": 81,
+                "co2": 0.49,
+                "calories": 716.04,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 81.0
+            },
+            {
+                "food": "pasta",
+                "grams": 90,
+                "co2": 0.16,
+                "calories": 117.9,
+                "protein": 4.5,
+                "carbs": 22.5,
+                "fat": 0.99
+            },
+            {
+                "food": "tofu",
+                "grams": 212,
+                "co2": 0.42,
+                "calories": 161.12,
+                "protein": 16.96,
+                "carbs": 4.03,
+                "fat": 10.18
+            },
+            {
+                "food": "chicken breast",
+                "grams": 287,
+                "co2": 1.98,
+                "calories": 473.55,
+                "protein": 88.97,
+                "carbs": 0.0,
+                "fat": 10.33
+            },
+            {
+                "food": "cucumber",
+                "grams": 290,
+                "co2": 0.14,
+                "calories": 46.4,
+                "protein": 2.03,
+                "carbs": 10.44,
+                "fat": 0.29
+            },
+            {
+                "food": "chickpeas",
+                "grams": 216,
+                "co2": 0.15,
+                "calories": 354.24,
+                "protein": 19.44,
+                "carbs": 58.32,
+                "fat": 5.62
+            },
+            {
+                "food": "beef",
+                "grams": 254,
+                "co2": 6.86,
+                "calories": 635.0,
+                "protein": 66.04,
+                "carbs": 0.0,
+                "fat": 38.1
+            }
+        ],
+        "total_co2": 10.94,
+        "total_calories": 2651.87,
+        "total_protein": 214.41,
+        "total_carbs": 95.29,
+        "total_fat": 155.04,
+        "per_serving": {
+            "co2": 10.94,
+            "calories": 2651.87,
+            "protein": 214.41,
+            "carbs": 95.29,
+            "fat": 155.04
+        }
+    },
+    {
+        "recipe_name": "Recipe_7",
+        "servings": 5,
+        "ingredients": [
+            {
+                "food": "tofu",
+                "grams": 50,
+                "co2": 0.1,
+                "calories": 38.0,
+                "protein": 4.0,
+                "carbs": 0.95,
+                "fat": 2.4
+            },
+            {
+                "food": "cheese",
+                "grams": 291,
+                "co2": 3.93,
+                "calories": 1169.82,
+                "protein": 72.75,
+                "carbs": 3.78,
+                "fat": 96.03
+            },
+            {
+                "food": "chickpeas",
+                "grams": 215,
+                "co2": 0.15,
+                "calories": 352.6,
+                "protein": 19.35,
+                "carbs": 58.05,
+                "fat": 5.59
+            },
+            {
+                "food": "cucumber",
+                "grams": 201,
+                "co2": 0.1,
+                "calories": 32.16,
+                "protein": 1.41,
+                "carbs": 7.24,
+                "fat": 0.2
+            },
+            {
+                "food": "pork",
+                "grams": 132,
+                "co2": 1.58,
+                "calories": 319.44,
+                "protein": 35.64,
+                "carbs": 0.0,
+                "fat": 18.48
+            },
+            {
+                "food": "olive oil",
+                "grams": 248,
+                "co2": 1.49,
+                "calories": 2192.32,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 248.0
+            },
+            {
+                "food": "chicken breast",
+                "grams": 89,
+                "co2": 0.61,
+                "calories": 146.85,
+                "protein": 27.59,
+                "carbs": 0.0,
+                "fat": 3.2
+            },
+            {
+                "food": "feta cheese",
+                "grams": 137,
+                "co2": 1.78,
+                "calories": 361.68,
+                "protein": 19.18,
+                "carbs": 5.48,
+                "fat": 28.77
+            }
+        ],
+        "total_co2": 9.75,
+        "total_calories": 4612.87,
+        "total_protein": 179.92,
+        "total_carbs": 75.5,
+        "total_fat": 402.68,
+        "per_serving": {
+            "co2": 1.95,
+            "calories": 922.57,
+            "protein": 35.98,
+            "carbs": 15.1,
+            "fat": 80.54
+        }
+    },
+    {
+        "recipe_name": "Recipe_8",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "lettuce",
+                "grams": 164,
+                "co2": 0.03,
+                "calories": 24.6,
+                "protein": 2.3,
+                "carbs": 4.76,
+                "fat": 0.33
+            },
+            {
+                "food": "lentils",
+                "grams": 292,
+                "co2": 0.15,
+                "calories": 338.72,
+                "protein": 26.28,
+                "carbs": 58.4,
+                "fat": 1.17
+            },
+            {
+                "food": "cucumber",
+                "grams": 125,
+                "co2": 0.06,
+                "calories": 20.0,
+                "protein": 0.88,
+                "carbs": 4.5,
+                "fat": 0.12
+            },
+            {
+                "food": "feta cheese",
+                "grams": 132,
+                "co2": 1.72,
+                "calories": 348.48,
+                "protein": 18.48,
+                "carbs": 5.28,
+                "fat": 27.72
+            },
+            {
+                "food": "chicken breast",
+                "grams": 187,
+                "co2": 1.29,
+                "calories": 308.55,
+                "protein": 57.97,
+                "carbs": 0.0,
+                "fat": 6.73
+            },
+            {
+                "food": "tofu",
+                "grams": 177,
+                "co2": 0.35,
+                "calories": 134.52,
+                "protein": 14.16,
+                "carbs": 3.36,
+                "fat": 8.5
+            },
+            {
+                "food": "cheese",
+                "grams": 55,
+                "co2": 0.74,
+                "calories": 221.1,
+                "protein": 13.75,
+                "carbs": 0.72,
+                "fat": 18.15
+            },
+            {
+                "food": "pork",
+                "grams": 95,
+                "co2": 1.14,
+                "calories": 229.9,
+                "protein": 25.65,
+                "carbs": 0.0,
+                "fat": 13.3
+            }
+        ],
+        "total_co2": 5.48,
+        "total_calories": 1625.87,
+        "total_protein": 159.46,
+        "total_carbs": 77.01,
+        "total_fat": 76.02,
+        "per_serving": {
+            "co2": 2.74,
+            "calories": 812.94,
+            "protein": 79.73,
+            "carbs": 38.51,
+            "fat": 38.01
+        }
+    },
+    {
+        "recipe_name": "Recipe_9",
+        "servings": 5,
+        "ingredients": [
+            {
+                "food": "tofu",
+                "grams": 177,
+                "co2": 0.35,
+                "calories": 134.52,
+                "protein": 14.16,
+                "carbs": 3.36,
+                "fat": 8.5
+            },
+            {
+                "food": "chickpeas",
+                "grams": 277,
+                "co2": 0.19,
+                "calories": 454.28,
+                "protein": 24.93,
+                "carbs": 74.79,
+                "fat": 7.2
+            },
+            {
+                "food": "olive oil",
+                "grams": 269,
+                "co2": 1.61,
+                "calories": 2377.96,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 269.0
+            },
+            {
+                "food": "chicken breast",
+                "grams": 154,
+                "co2": 1.06,
+                "calories": 254.1,
+                "protein": 47.74,
+                "carbs": 0.0,
+                "fat": 5.54
+            },
+            {
+                "food": "pasta",
+                "grams": 103,
+                "co2": 0.19,
+                "calories": 134.93,
+                "protein": 5.15,
+                "carbs": 25.75,
+                "fat": 1.13
+            },
+            {
+                "food": "cheese",
+                "grams": 60,
+                "co2": 0.81,
+                "calories": 241.2,
+                "protein": 15.0,
+                "carbs": 0.78,
+                "fat": 19.8
+            },
+            {
+                "food": "cucumber",
+                "grams": 248,
+                "co2": 0.12,
+                "calories": 39.68,
+                "protein": 1.74,
+                "carbs": 8.93,
+                "fat": 0.25
+            },
+            {
+                "food": "lentils",
+                "grams": 239,
+                "co2": 0.12,
+                "calories": 277.24,
+                "protein": 21.51,
+                "carbs": 47.8,
+                "fat": 0.96
+            }
+        ],
+        "total_co2": 4.46,
+        "total_calories": 3913.91,
+        "total_protein": 130.23,
+        "total_carbs": 161.41,
+        "total_fat": 312.38,
+        "per_serving": {
+            "co2": 0.89,
+            "calories": 782.78,
+            "protein": 26.05,
+            "carbs": 32.28,
+            "fat": 62.48
+        }
+    },
+    {
+        "recipe_name": "Recipe_10",
+        "servings": 3,
+        "ingredients": [
+            {
+                "food": "olive oil",
+                "grams": 116,
+                "co2": 0.7,
+                "calories": 1025.44,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 116.0
+            },
+            {
+                "food": "tofu",
+                "grams": 273,
+                "co2": 0.55,
+                "calories": 207.48,
+                "protein": 21.84,
+                "carbs": 5.19,
+                "fat": 13.1
+            },
+            {
+                "food": "beef",
+                "grams": 297,
+                "co2": 8.02,
+                "calories": 742.5,
+                "protein": 77.22,
+                "carbs": 0.0,
+                "fat": 44.55
+            },
+            {
+                "food": "cheese",
+                "grams": 111,
+                "co2": 1.5,
+                "calories": 446.22,
+                "protein": 27.75,
+                "carbs": 1.44,
+                "fat": 36.63
+            },
+            {
+                "food": "chicken breast",
+                "grams": 115,
+                "co2": 0.79,
+                "calories": 189.75,
+                "protein": 35.65,
+                "carbs": 0.0,
+                "fat": 4.14
+            },
+            {
+                "food": "cucumber",
+                "grams": 56,
+                "co2": 0.03,
+                "calories": 8.96,
+                "protein": 0.39,
+                "carbs": 2.02,
+                "fat": 0.06
+            }
+        ],
+        "total_co2": 11.58,
+        "total_calories": 2620.35,
+        "total_protein": 162.85,
+        "total_carbs": 8.65,
+        "total_fat": 214.48,
+        "per_serving": {
+            "co2": 3.86,
+            "calories": 873.45,
+            "protein": 54.28,
+            "carbs": 2.88,
+            "fat": 71.49
+        }
+    },
+    {
+        "recipe_name": "Recipe_11",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "pasta",
+                "grams": 162,
+                "co2": 0.29,
+                "calories": 212.22,
+                "protein": 8.1,
+                "carbs": 40.5,
+                "fat": 1.78
+            },
+            {
+                "food": "tomato",
+                "grams": 62,
+                "co2": 0.07,
+                "calories": 11.16,
+                "protein": 0.56,
+                "carbs": 2.42,
+                "fat": 0.12
+            },
+            {
+                "food": "pork",
+                "grams": 291,
+                "co2": 3.49,
+                "calories": 704.22,
+                "protein": 78.57,
+                "carbs": 0.0,
+                "fat": 40.74
+            },
+            {
+                "food": "tofu",
+                "grams": 113,
+                "co2": 0.23,
+                "calories": 85.88,
+                "protein": 9.04,
+                "carbs": 2.15,
+                "fat": 5.42
+            },
+            {
+                "food": "cucumber",
+                "grams": 197,
+                "co2": 0.1,
+                "calories": 31.52,
+                "protein": 1.38,
+                "carbs": 7.09,
+                "fat": 0.2
+            },
+            {
+                "food": "feta cheese",
+                "grams": 179,
+                "co2": 2.33,
+                "calories": 472.56,
+                "protein": 25.06,
+                "carbs": 7.16,
+                "fat": 37.59
+            },
+            {
+                "food": "lentils",
+                "grams": 234,
+                "co2": 0.12,
+                "calories": 271.44,
+                "protein": 21.06,
+                "carbs": 46.8,
+                "fat": 0.94
+            }
+        ],
+        "total_co2": 6.62,
+        "total_calories": 1789.0,
+        "total_protein": 143.77,
+        "total_carbs": 106.12,
+        "total_fat": 86.79,
+        "per_serving": {
+            "co2": 3.31,
+            "calories": 894.5,
+            "protein": 71.88,
+            "carbs": 53.06,
+            "fat": 43.4
+        }
+    },
+    {
+        "recipe_name": "Recipe_12",
+        "servings": 1,
+        "ingredients": [
+            {
+                "food": "olive oil",
+                "grams": 59,
+                "co2": 0.35,
+                "calories": 521.56,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 59.0
+            },
+            {
+                "food": "tomato",
+                "grams": 125,
+                "co2": 0.14,
+                "calories": 22.5,
+                "protein": 1.12,
+                "carbs": 4.88,
+                "fat": 0.25
+            },
+            {
+                "food": "beef",
+                "grams": 263,
+                "co2": 7.1,
+                "calories": 657.5,
+                "protein": 68.38,
+                "carbs": 0.0,
+                "fat": 39.45
+            },
+            {
+                "food": "beans",
+                "grams": 234,
+                "co2": 0.14,
+                "calories": 811.98,
+                "protein": 49.14,
+                "carbs": 147.42,
+                "fat": 2.81
+            }
+        ],
+        "total_co2": 7.73,
+        "total_calories": 2013.54,
+        "total_protein": 118.64,
+        "total_carbs": 152.29,
+        "total_fat": 101.51,
+        "per_serving": {
+            "co2": 7.73,
+            "calories": 2013.54,
+            "protein": 118.64,
+            "carbs": 152.29,
+            "fat": 101.51
+        }
+    },
+    {
+        "recipe_name": "Recipe_13",
+        "servings": 5,
+        "ingredients": [
+            {
+                "food": "pasta",
+                "grams": 261,
+                "co2": 0.47,
+                "calories": 341.91,
+                "protein": 13.05,
+                "carbs": 65.25,
+                "fat": 2.87
+            },
+            {
+                "food": "beans",
+                "grams": 224,
+                "co2": 0.13,
+                "calories": 777.28,
+                "protein": 47.04,
+                "carbs": 141.12,
+                "fat": 2.69
+            },
+            {
+                "food": "chickpeas",
+                "grams": 238,
+                "co2": 0.17,
+                "calories": 390.32,
+                "protein": 21.42,
+                "carbs": 64.26,
+                "fat": 6.19
+            },
+            {
+                "food": "lettuce",
+                "grams": 297,
+                "co2": 0.06,
+                "calories": 44.55,
+                "protein": 4.16,
+                "carbs": 8.61,
+                "fat": 0.59
+            },
+            {
+                "food": "tomato",
+                "grams": 289,
+                "co2": 0.32,
+                "calories": 52.02,
+                "protein": 2.6,
+                "carbs": 11.27,
+                "fat": 0.58
+            },
+            {
+                "food": "lentils",
+                "grams": 119,
+                "co2": 0.06,
+                "calories": 138.04,
+                "protein": 10.71,
+                "carbs": 23.8,
+                "fat": 0.48
+            }
+        ],
+        "total_co2": 1.21,
+        "total_calories": 1744.12,
+        "total_protein": 98.98,
+        "total_carbs": 314.31,
+        "total_fat": 13.4,
+        "per_serving": {
+            "co2": 0.24,
+            "calories": 348.82,
+            "protein": 19.8,
+            "carbs": 62.86,
+            "fat": 2.68
+        }
+    },
+    {
+        "recipe_name": "Recipe_14",
+        "servings": 1,
+        "ingredients": [
+            {
+                "food": "beef",
+                "grams": 299,
+                "co2": 8.07,
+                "calories": 747.5,
+                "protein": 77.74,
+                "carbs": 0.0,
+                "fat": 44.85
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 176,
+                "co2": 0.18,
+                "calories": 51.04,
+                "protein": 2.46,
+                "carbs": 10.56,
+                "fat": 0.35
+            },
+            {
+                "food": "chicken breast",
+                "grams": 273,
+                "co2": 1.88,
+                "calories": 450.45,
+                "protein": 84.63,
+                "carbs": 0.0,
+                "fat": 9.83
+            },
+            {
+                "food": "tofu",
+                "grams": 54,
+                "co2": 0.11,
+                "calories": 41.04,
+                "protein": 4.32,
+                "carbs": 1.03,
+                "fat": 2.59
+            },
+            {
+                "food": "pork",
+                "grams": 227,
+                "co2": 2.72,
+                "calories": 549.34,
+                "protein": 61.29,
+                "carbs": 0.0,
+                "fat": 31.78
+            },
+            {
+                "food": "cucumber",
+                "grams": 109,
+                "co2": 0.05,
+                "calories": 17.44,
+                "protein": 0.76,
+                "carbs": 3.92,
+                "fat": 0.11
+            }
+        ],
+        "total_co2": 13.02,
+        "total_calories": 1856.81,
+        "total_protein": 231.21,
+        "total_carbs": 15.51,
+        "total_fat": 89.51,
+        "per_serving": {
+            "co2": 13.02,
+            "calories": 1856.81,
+            "protein": 231.21,
+            "carbs": 15.51,
+            "fat": 89.51
+        }
+    },
+    {
+        "recipe_name": "Recipe_15",
+        "servings": 3,
+        "ingredients": [
+            {
+                "food": "chicken breast",
+                "grams": 299,
+                "co2": 2.06,
+                "calories": 493.35,
+                "protein": 92.69,
+                "carbs": 0.0,
+                "fat": 10.76
+            },
+            {
+                "food": "pasta",
+                "grams": 291,
+                "co2": 0.52,
+                "calories": 381.21,
+                "protein": 14.55,
+                "carbs": 72.75,
+                "fat": 3.2
+            },
+            {
+                "food": "olive oil",
+                "grams": 239,
+                "co2": 1.43,
+                "calories": 2112.76,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 239.0
+            },
+            {
+                "food": "cucumber",
+                "grams": 287,
+                "co2": 0.14,
+                "calories": 45.92,
+                "protein": 2.01,
+                "carbs": 10.33,
+                "fat": 0.29
+            },
+            {
+                "food": "tomato",
+                "grams": 101,
+                "co2": 0.11,
+                "calories": 18.18,
+                "protein": 0.91,
+                "carbs": 3.94,
+                "fat": 0.2
+            },
+            {
+                "food": "mushroom",
+                "grams": 183,
+                "co2": 0.05,
+                "calories": 40.26,
+                "protein": 5.49,
+                "carbs": 6.04,
+                "fat": 0.55
+            }
+        ],
+        "total_co2": 4.33,
+        "total_calories": 3091.68,
+        "total_protein": 115.65,
+        "total_carbs": 93.06,
+        "total_fat": 254.0,
+        "per_serving": {
+            "co2": 1.44,
+            "calories": 1030.56,
+            "protein": 38.55,
+            "carbs": 31.02,
+            "fat": 84.67
+        }
+    },
+    {
+        "recipe_name": "Recipe_16",
+        "servings": 1,
+        "ingredients": [
+            {
+                "food": "chicken breast",
+                "grams": 167,
+                "co2": 1.15,
+                "calories": 275.55,
+                "protein": 51.77,
+                "carbs": 0.0,
+                "fat": 6.01
+            },
+            {
+                "food": "beef",
+                "grams": 252,
+                "co2": 6.8,
+                "calories": 630.0,
+                "protein": 65.52,
+                "carbs": 0.0,
+                "fat": 37.8
+            },
+            {
+                "food": "tomato",
+                "grams": 273,
+                "co2": 0.3,
+                "calories": 49.14,
+                "protein": 2.46,
+                "carbs": 10.65,
+                "fat": 0.55
+            },
+            {
+                "food": "lettuce",
+                "grams": 138,
+                "co2": 0.03,
+                "calories": 20.7,
+                "protein": 1.93,
+                "carbs": 4.0,
+                "fat": 0.28
+            },
+            {
+                "food": "beans",
+                "grams": 153,
+                "co2": 0.09,
+                "calories": 530.91,
+                "protein": 32.13,
+                "carbs": 96.39,
+                "fat": 1.84
+            }
+        ],
+        "total_co2": 8.38,
+        "total_calories": 1506.3,
+        "total_protein": 153.81,
+        "total_carbs": 111.04,
+        "total_fat": 46.47,
+        "per_serving": {
+            "co2": 8.38,
+            "calories": 1506.3,
+            "protein": 153.81,
+            "carbs": 111.04,
+            "fat": 46.47
+        }
+    },
+    {
+        "recipe_name": "Recipe_17",
+        "servings": 5,
+        "ingredients": [
+            {
+                "food": "chicken breast",
+                "grams": 146,
+                "co2": 1.01,
+                "calories": 240.9,
+                "protein": 45.26,
+                "carbs": 0.0,
+                "fat": 5.26
+            },
+            {
+                "food": "beef",
+                "grams": 245,
+                "co2": 6.62,
+                "calories": 612.5,
+                "protein": 63.7,
+                "carbs": 0.0,
+                "fat": 36.75
+            },
+            {
+                "food": "pasta",
+                "grams": 108,
+                "co2": 0.19,
+                "calories": 141.48,
+                "protein": 5.4,
+                "carbs": 27.0,
+                "fat": 1.19
+            },
+            {
+                "food": "feta cheese",
+                "grams": 237,
+                "co2": 3.08,
+                "calories": 625.68,
+                "protein": 33.18,
+                "carbs": 9.48,
+                "fat": 49.77
+            },
+            {
+                "food": "chickpeas",
+                "grams": 114,
+                "co2": 0.08,
+                "calories": 186.96,
+                "protein": 10.26,
+                "carbs": 30.78,
+                "fat": 2.96
+            }
+        ],
+        "total_co2": 10.98,
+        "total_calories": 1807.52,
+        "total_protein": 157.8,
+        "total_carbs": 67.26,
+        "total_fat": 95.93,
+        "per_serving": {
+            "co2": 2.2,
+            "calories": 361.5,
+            "protein": 31.56,
+            "carbs": 13.45,
+            "fat": 19.19
+        }
+    },
+    {
+        "recipe_name": "Recipe_18",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "chicken breast",
+                "grams": 106,
+                "co2": 0.73,
+                "calories": 174.9,
+                "protein": 32.86,
+                "carbs": 0.0,
+                "fat": 3.82
+            },
+            {
+                "food": "pork",
+                "grams": 171,
+                "co2": 2.05,
+                "calories": 413.82,
+                "protein": 46.17,
+                "carbs": 0.0,
+                "fat": 23.94
+            },
+            {
+                "food": "olive oil",
+                "grams": 156,
+                "co2": 0.94,
+                "calories": 1379.04,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 156.0
+            }
+        ],
+        "total_co2": 3.72,
+        "total_calories": 1967.76,
+        "total_protein": 79.03,
+        "total_carbs": 0.0,
+        "total_fat": 183.76,
+        "per_serving": {
+            "co2": 1.86,
+            "calories": 983.88,
+            "protein": 39.52,
+            "carbs": 0.0,
+            "fat": 91.88
+        }
+    },
+    {
+        "recipe_name": "Recipe_19",
+        "servings": 6,
+        "ingredients": [
+            {
+                "food": "tomato sauce",
+                "grams": 113,
+                "co2": 0.11,
+                "calories": 32.77,
+                "protein": 1.58,
+                "carbs": 6.78,
+                "fat": 0.23
+            },
+            {
+                "food": "beans",
+                "grams": 129,
+                "co2": 0.08,
+                "calories": 447.63,
+                "protein": 27.09,
+                "carbs": 81.27,
+                "fat": 1.55
+            },
+            {
+                "food": "tomato",
+                "grams": 187,
+                "co2": 0.21,
+                "calories": 33.66,
+                "protein": 1.68,
+                "carbs": 7.29,
+                "fat": 0.37
+            },
+            {
+                "food": "pork",
+                "grams": 72,
+                "co2": 0.86,
+                "calories": 174.24,
+                "protein": 19.44,
+                "carbs": 0.0,
+                "fat": 10.08
+            }
+        ],
+        "total_co2": 1.26,
+        "total_calories": 688.3,
+        "total_protein": 49.8,
+        "total_carbs": 95.34,
+        "total_fat": 12.23,
+        "per_serving": {
+            "co2": 0.21,
+            "calories": 114.72,
+            "protein": 8.3,
+            "carbs": 15.89,
+            "fat": 2.04
+        }
+    },
+    {
+        "recipe_name": "Recipe_20",
+        "servings": 6,
+        "ingredients": [
+            {
+                "food": "tofu",
+                "grams": 64,
+                "co2": 0.13,
+                "calories": 48.64,
+                "protein": 5.12,
+                "carbs": 1.22,
+                "fat": 3.07
+            },
+            {
+                "food": "feta cheese",
+                "grams": 299,
+                "co2": 3.89,
+                "calories": 789.36,
+                "protein": 41.86,
+                "carbs": 11.96,
+                "fat": 62.79
+            },
+            {
+                "food": "tomato",
+                "grams": 95,
+                "co2": 0.1,
+                "calories": 17.1,
+                "protein": 0.86,
+                "carbs": 3.7,
+                "fat": 0.19
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 79,
+                "co2": 0.08,
+                "calories": 22.91,
+                "protein": 1.11,
+                "carbs": 4.74,
+                "fat": 0.16
+            },
+            {
+                "food": "pasta",
+                "grams": 186,
+                "co2": 0.33,
+                "calories": 243.66,
+                "protein": 9.3,
+                "carbs": 46.5,
+                "fat": 2.05
+            },
+            {
+                "food": "beef",
+                "grams": 70,
+                "co2": 1.89,
+                "calories": 175.0,
+                "protein": 18.2,
+                "carbs": 0.0,
+                "fat": 10.5
+            },
+            {
+                "food": "cheese",
+                "grams": 114,
+                "co2": 1.54,
+                "calories": 458.28,
+                "protein": 28.5,
+                "carbs": 1.48,
+                "fat": 37.62
+            }
+        ],
+        "total_co2": 7.96,
+        "total_calories": 1754.95,
+        "total_protein": 104.94,
+        "total_carbs": 69.6,
+        "total_fat": 116.38,
+        "per_serving": {
+            "co2": 1.33,
+            "calories": 292.49,
+            "protein": 17.49,
+            "carbs": 11.6,
+            "fat": 19.4
+        }
+    },
+    {
+        "recipe_name": "Recipe_21",
+        "servings": 1,
+        "ingredients": [
+            {
+                "food": "pasta",
+                "grams": 177,
+                "co2": 0.32,
+                "calories": 231.87,
+                "protein": 8.85,
+                "carbs": 44.25,
+                "fat": 1.95
+            },
+            {
+                "food": "chicken breast",
+                "grams": 273,
+                "co2": 1.88,
+                "calories": 450.45,
+                "protein": 84.63,
+                "carbs": 0.0,
+                "fat": 9.83
+            },
+            {
+                "food": "lettuce",
+                "grams": 138,
+                "co2": 0.03,
+                "calories": 20.7,
+                "protein": 1.93,
+                "carbs": 4.0,
+                "fat": 0.28
+            },
+            {
+                "food": "tomato",
+                "grams": 108,
+                "co2": 0.12,
+                "calories": 19.44,
+                "protein": 0.97,
+                "carbs": 4.21,
+                "fat": 0.22
+            },
+            {
+                "food": "tofu",
+                "grams": 66,
+                "co2": 0.13,
+                "calories": 50.16,
+                "protein": 5.28,
+                "carbs": 1.25,
+                "fat": 3.17
+            },
+            {
+                "food": "chickpeas",
+                "grams": 229,
+                "co2": 0.16,
+                "calories": 375.56,
+                "protein": 20.61,
+                "carbs": 61.83,
+                "fat": 5.95
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 191,
+                "co2": 0.19,
+                "calories": 55.39,
+                "protein": 2.67,
+                "carbs": 11.46,
+                "fat": 0.38
+            }
+        ],
+        "total_co2": 2.83,
+        "total_calories": 1203.57,
+        "total_protein": 124.95,
+        "total_carbs": 127.01,
+        "total_fat": 21.77,
+        "per_serving": {
+            "co2": 2.83,
+            "calories": 1203.57,
+            "protein": 124.95,
+            "carbs": 127.01,
+            "fat": 21.77
+        }
+    },
+    {
+        "recipe_name": "Recipe_22",
+        "servings": 4,
+        "ingredients": [
+            {
+                "food": "cheese",
+                "grams": 261,
+                "co2": 3.52,
+                "calories": 1049.22,
+                "protein": 65.25,
+                "carbs": 3.39,
+                "fat": 86.13
+            },
+            {
+                "food": "tomato",
+                "grams": 184,
+                "co2": 0.2,
+                "calories": 33.12,
+                "protein": 1.66,
+                "carbs": 7.18,
+                "fat": 0.37
+            },
+            {
+                "food": "mushroom",
+                "grams": 284,
+                "co2": 0.09,
+                "calories": 62.48,
+                "protein": 8.52,
+                "carbs": 9.37,
+                "fat": 0.85
+            },
+            {
+                "food": "olive oil",
+                "grams": 149,
+                "co2": 0.89,
+                "calories": 1317.16,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 149.0
+            },
+            {
+                "food": "lettuce",
+                "grams": 289,
+                "co2": 0.06,
+                "calories": 43.35,
+                "protein": 4.05,
+                "carbs": 8.38,
+                "fat": 0.58
+            },
+            {
+                "food": "lentils",
+                "grams": 246,
+                "co2": 0.12,
+                "calories": 285.36,
+                "protein": 22.14,
+                "carbs": 49.2,
+                "fat": 0.98
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 216,
+                "co2": 0.22,
+                "calories": 62.64,
+                "protein": 3.02,
+                "carbs": 12.96,
+                "fat": 0.43
+            }
+        ],
+        "total_co2": 5.1,
+        "total_calories": 2853.33,
+        "total_protein": 104.64,
+        "total_carbs": 90.48,
+        "total_fat": 238.34,
+        "per_serving": {
+            "co2": 1.28,
+            "calories": 713.33,
+            "protein": 26.16,
+            "carbs": 22.62,
+            "fat": 59.59
+        }
+    },
+    {
+        "recipe_name": "Recipe_23",
+        "servings": 1,
+        "ingredients": [
+            {
+                "food": "cucumber",
+                "grams": 92,
+                "co2": 0.05,
+                "calories": 14.72,
+                "protein": 0.64,
+                "carbs": 3.31,
+                "fat": 0.09
+            },
+            {
+                "food": "feta cheese",
+                "grams": 169,
+                "co2": 2.2,
+                "calories": 446.16,
+                "protein": 23.66,
+                "carbs": 6.76,
+                "fat": 35.49
+            },
+            {
+                "food": "pork",
+                "grams": 197,
+                "co2": 2.36,
+                "calories": 476.74,
+                "protein": 53.19,
+                "carbs": 0.0,
+                "fat": 27.58
+            },
+            {
+                "food": "beef",
+                "grams": 66,
+                "co2": 1.78,
+                "calories": 165.0,
+                "protein": 17.16,
+                "carbs": 0.0,
+                "fat": 9.9
+            },
+            {
+                "food": "chicken breast",
+                "grams": 237,
+                "co2": 1.64,
+                "calories": 391.05,
+                "protein": 73.47,
+                "carbs": 0.0,
+                "fat": 8.53
+            },
+            {
+                "food": "tofu",
+                "grams": 235,
+                "co2": 0.47,
+                "calories": 178.6,
+                "protein": 18.8,
+                "carbs": 4.46,
+                "fat": 11.28
+            },
+            {
+                "food": "mushroom",
+                "grams": 63,
+                "co2": 0.02,
+                "calories": 13.86,
+                "protein": 1.89,
+                "carbs": 2.08,
+                "fat": 0.19
+            },
+            {
+                "food": "lettuce",
+                "grams": 83,
+                "co2": 0.02,
+                "calories": 12.45,
+                "protein": 1.16,
+                "carbs": 2.41,
+                "fat": 0.17
+            }
+        ],
+        "total_co2": 8.53,
+        "total_calories": 1698.58,
+        "total_protein": 189.98,
+        "total_carbs": 19.02,
+        "total_fat": 93.23,
+        "per_serving": {
+            "co2": 8.53,
+            "calories": 1698.58,
+            "protein": 189.98,
+            "carbs": 19.02,
+            "fat": 93.23
+        }
+    },
+    {
+        "recipe_name": "Recipe_24",
+        "servings": 4,
+        "ingredients": [
+            {
+                "food": "lentils",
+                "grams": 284,
+                "co2": 0.14,
+                "calories": 329.44,
+                "protein": 25.56,
+                "carbs": 56.8,
+                "fat": 1.14
+            },
+            {
+                "food": "tofu",
+                "grams": 90,
+                "co2": 0.18,
+                "calories": 68.4,
+                "protein": 7.2,
+                "carbs": 1.71,
+                "fat": 4.32
+            },
+            {
+                "food": "beans",
+                "grams": 90,
+                "co2": 0.05,
+                "calories": 312.3,
+                "protein": 18.9,
+                "carbs": 56.7,
+                "fat": 1.08
+            }
+        ],
+        "total_co2": 0.38,
+        "total_calories": 710.14,
+        "total_protein": 51.66,
+        "total_carbs": 115.21,
+        "total_fat": 6.54,
+        "per_serving": {
+            "co2": 0.09,
+            "calories": 177.54,
+            "protein": 12.92,
+            "carbs": 28.8,
+            "fat": 1.63
+        }
+    },
+    {
+        "recipe_name": "Recipe_25",
+        "servings": 5,
+        "ingredients": [
+            {
+                "food": "olive oil",
+                "grams": 147,
+                "co2": 0.88,
+                "calories": 1299.48,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 147.0
+            },
+            {
+                "food": "tomato",
+                "grams": 92,
+                "co2": 0.1,
+                "calories": 16.56,
+                "protein": 0.83,
+                "carbs": 3.59,
+                "fat": 0.18
+            },
+            {
+                "food": "tofu",
+                "grams": 162,
+                "co2": 0.32,
+                "calories": 123.12,
+                "protein": 12.96,
+                "carbs": 3.08,
+                "fat": 7.78
+            },
+            {
+                "food": "cheese",
+                "grams": 128,
+                "co2": 1.73,
+                "calories": 514.56,
+                "protein": 32.0,
+                "carbs": 1.66,
+                "fat": 42.24
+            },
+            {
+                "food": "beans",
+                "grams": 265,
+                "co2": 0.16,
+                "calories": 919.55,
+                "protein": 55.65,
+                "carbs": 166.95,
+                "fat": 3.18
+            },
+            {
+                "food": "pork",
+                "grams": 247,
+                "co2": 2.96,
+                "calories": 597.74,
+                "protein": 66.69,
+                "carbs": 0.0,
+                "fat": 34.58
+            }
+        ],
+        "total_co2": 6.16,
+        "total_calories": 3471.01,
+        "total_protein": 168.13,
+        "total_carbs": 175.28,
+        "total_fat": 234.96,
+        "per_serving": {
+            "co2": 1.23,
+            "calories": 694.2,
+            "protein": 33.63,
+            "carbs": 35.06,
+            "fat": 46.99
+        }
+    },
+    {
+        "recipe_name": "Recipe_26",
+        "servings": 6,
+        "ingredients": [
+            {
+                "food": "olive oil",
+                "grams": 191,
+                "co2": 1.15,
+                "calories": 1688.44,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 191.0
+            },
+            {
+                "food": "tomato",
+                "grams": 240,
+                "co2": 0.26,
+                "calories": 43.2,
+                "protein": 2.16,
+                "carbs": 9.36,
+                "fat": 0.48
+            },
+            {
+                "food": "pork",
+                "grams": 69,
+                "co2": 0.83,
+                "calories": 166.98,
+                "protein": 18.63,
+                "carbs": 0.0,
+                "fat": 9.66
+            },
+            {
+                "food": "cheese",
+                "grams": 199,
+                "co2": 2.69,
+                "calories": 799.98,
+                "protein": 49.75,
+                "carbs": 2.59,
+                "fat": 65.67
+            },
+            {
+                "food": "beans",
+                "grams": 153,
+                "co2": 0.09,
+                "calories": 530.91,
+                "protein": 32.13,
+                "carbs": 96.39,
+                "fat": 1.84
+            }
+        ],
+        "total_co2": 5.02,
+        "total_calories": 3229.51,
+        "total_protein": 102.67,
+        "total_carbs": 108.34,
+        "total_fat": 268.65,
+        "per_serving": {
+            "co2": 0.84,
+            "calories": 538.25,
+            "protein": 17.11,
+            "carbs": 18.06,
+            "fat": 44.77
+        }
+    },
+    {
+        "recipe_name": "Recipe_27",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "chickpeas",
+                "grams": 105,
+                "co2": 0.07,
+                "calories": 172.2,
+                "protein": 9.45,
+                "carbs": 28.35,
+                "fat": 2.73
+            },
+            {
+                "food": "lettuce",
+                "grams": 101,
+                "co2": 0.02,
+                "calories": 15.15,
+                "protein": 1.41,
+                "carbs": 2.93,
+                "fat": 0.2
+            },
+            {
+                "food": "beef",
+                "grams": 129,
+                "co2": 3.48,
+                "calories": 322.5,
+                "protein": 33.54,
+                "carbs": 0.0,
+                "fat": 19.35
+            },
+            {
+                "food": "tofu",
+                "grams": 215,
+                "co2": 0.43,
+                "calories": 163.4,
+                "protein": 17.2,
+                "carbs": 4.08,
+                "fat": 10.32
+            },
+            {
+                "food": "pork",
+                "grams": 158,
+                "co2": 1.9,
+                "calories": 382.36,
+                "protein": 42.66,
+                "carbs": 0.0,
+                "fat": 22.12
+            },
+            {
+                "food": "cucumber",
+                "grams": 143,
+                "co2": 0.07,
+                "calories": 22.88,
+                "protein": 1.0,
+                "carbs": 5.15,
+                "fat": 0.14
+            }
+        ],
+        "total_co2": 5.97,
+        "total_calories": 1078.49,
+        "total_protein": 105.27,
+        "total_carbs": 40.51,
+        "total_fat": 54.87,
+        "per_serving": {
+            "co2": 2.99,
+            "calories": 539.25,
+            "protein": 52.63,
+            "carbs": 20.26,
+            "fat": 27.43
+        }
+    },
+    {
+        "recipe_name": "Recipe_28",
+        "servings": 4,
+        "ingredients": [
+            {
+                "food": "tomato sauce",
+                "grams": 71,
+                "co2": 0.07,
+                "calories": 20.59,
+                "protein": 0.99,
+                "carbs": 4.26,
+                "fat": 0.14
+            },
+            {
+                "food": "tomato",
+                "grams": 81,
+                "co2": 0.09,
+                "calories": 14.58,
+                "protein": 0.73,
+                "carbs": 3.16,
+                "fat": 0.16
+            },
+            {
+                "food": "cheese",
+                "grams": 108,
+                "co2": 1.46,
+                "calories": 434.16,
+                "protein": 27.0,
+                "carbs": 1.4,
+                "fat": 35.64
+            },
+            {
+                "food": "chicken breast",
+                "grams": 166,
+                "co2": 1.15,
+                "calories": 273.9,
+                "protein": 51.46,
+                "carbs": 0.0,
+                "fat": 5.98
+            },
+            {
+                "food": "beans",
+                "grams": 145,
+                "co2": 0.09,
+                "calories": 503.15,
+                "protein": 30.45,
+                "carbs": 91.35,
+                "fat": 1.74
+            },
+            {
+                "food": "lettuce",
+                "grams": 151,
+                "co2": 0.03,
+                "calories": 22.65,
+                "protein": 2.11,
+                "carbs": 4.38,
+                "fat": 0.3
+            }
+        ],
+        "total_co2": 2.88,
+        "total_calories": 1269.03,
+        "total_protein": 112.75,
+        "total_carbs": 104.55,
+        "total_fat": 43.96,
+        "per_serving": {
+            "co2": 0.72,
+            "calories": 317.26,
+            "protein": 28.19,
+            "carbs": 26.14,
+            "fat": 10.99
+        }
+    },
+    {
+        "recipe_name": "Recipe_29",
+        "servings": 4,
+        "ingredients": [
+            {
+                "food": "beef",
+                "grams": 300,
+                "co2": 8.1,
+                "calories": 750.0,
+                "protein": 78.0,
+                "carbs": 0.0,
+                "fat": 45.0
+            },
+            {
+                "food": "tomato",
+                "grams": 137,
+                "co2": 0.15,
+                "calories": 24.66,
+                "protein": 1.23,
+                "carbs": 5.34,
+                "fat": 0.27
+            },
+            {
+                "food": "cheese",
+                "grams": 194,
+                "co2": 2.62,
+                "calories": 779.88,
+                "protein": 48.5,
+                "carbs": 2.52,
+                "fat": 64.02
+            },
+            {
+                "food": "feta cheese",
+                "grams": 260,
+                "co2": 3.38,
+                "calories": 686.4,
+                "protein": 36.4,
+                "carbs": 10.4,
+                "fat": 54.6
+            },
+            {
+                "food": "cucumber",
+                "grams": 219,
+                "co2": 0.11,
+                "calories": 35.04,
+                "protein": 1.53,
+                "carbs": 7.88,
+                "fat": 0.22
+            }
+        ],
+        "total_co2": 14.36,
+        "total_calories": 2275.98,
+        "total_protein": 165.67,
+        "total_carbs": 26.15,
+        "total_fat": 164.11,
+        "per_serving": {
+            "co2": 3.59,
+            "calories": 569.0,
+            "protein": 41.42,
+            "carbs": 6.54,
+            "fat": 41.03
+        }
+    },
+    {
+        "recipe_name": "Recipe_30",
+        "servings": 3,
+        "ingredients": [
+            {
+                "food": "chicken breast",
+                "grams": 134,
+                "co2": 0.92,
+                "calories": 221.1,
+                "protein": 41.54,
+                "carbs": 0.0,
+                "fat": 4.82
+            },
+            {
+                "food": "lettuce",
+                "grams": 219,
+                "co2": 0.04,
+                "calories": 32.85,
+                "protein": 3.07,
+                "carbs": 6.35,
+                "fat": 0.44
+            },
+            {
+                "food": "tomato",
+                "grams": 227,
+                "co2": 0.25,
+                "calories": 40.86,
+                "protein": 2.04,
+                "carbs": 8.85,
+                "fat": 0.45
+            },
+            {
+                "food": "olive oil",
+                "grams": 102,
+                "co2": 0.61,
+                "calories": 901.68,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 102.0
+            },
+            {
+                "food": "feta cheese",
+                "grams": 260,
+                "co2": 3.38,
+                "calories": 686.4,
+                "protein": 36.4,
+                "carbs": 10.4,
+                "fat": 54.6
+            },
+            {
+                "food": "chickpeas",
+                "grams": 201,
+                "co2": 0.14,
+                "calories": 329.64,
+                "protein": 18.09,
+                "carbs": 54.27,
+                "fat": 5.23
+            },
+            {
+                "food": "lentils",
+                "grams": 102,
+                "co2": 0.05,
+                "calories": 118.32,
+                "protein": 9.18,
+                "carbs": 20.4,
+                "fat": 0.41
+            }
+        ],
+        "total_co2": 5.4,
+        "total_calories": 2330.85,
+        "total_protein": 110.32,
+        "total_carbs": 100.27,
+        "total_fat": 167.95,
+        "per_serving": {
+            "co2": 1.8,
+            "calories": 776.95,
+            "protein": 36.77,
+            "carbs": 33.42,
+            "fat": 55.98
+        }
+    },
+    {
+        "recipe_name": "Recipe_31",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "lentils",
+                "grams": 127,
+                "co2": 0.06,
+                "calories": 147.32,
+                "protein": 11.43,
+                "carbs": 25.4,
+                "fat": 0.51
+            },
+            {
+                "food": "tomato",
+                "grams": 258,
+                "co2": 0.28,
+                "calories": 46.44,
+                "protein": 2.32,
+                "carbs": 10.06,
+                "fat": 0.52
+            },
+            {
+                "food": "cheese",
+                "grams": 224,
+                "co2": 3.02,
+                "calories": 900.48,
+                "protein": 56.0,
+                "carbs": 2.91,
+                "fat": 73.92
+            },
+            {
+                "food": "lettuce",
+                "grams": 160,
+                "co2": 0.03,
+                "calories": 24.0,
+                "protein": 2.24,
+                "carbs": 4.64,
+                "fat": 0.32
+            },
+            {
+                "food": "beef",
+                "grams": 183,
+                "co2": 4.94,
+                "calories": 457.5,
+                "protein": 47.58,
+                "carbs": 0.0,
+                "fat": 27.45
+            },
+            {
+                "food": "cucumber",
+                "grams": 224,
+                "co2": 0.11,
+                "calories": 35.84,
+                "protein": 1.57,
+                "carbs": 8.06,
+                "fat": 0.22
+            },
+            {
+                "food": "chickpeas",
+                "grams": 283,
+                "co2": 0.2,
+                "calories": 464.12,
+                "protein": 25.47,
+                "carbs": 76.41,
+                "fat": 7.36
+            }
+        ],
+        "total_co2": 8.65,
+        "total_calories": 2075.7,
+        "total_protein": 146.61,
+        "total_carbs": 127.49,
+        "total_fat": 110.3,
+        "per_serving": {
+            "co2": 4.33,
+            "calories": 1037.85,
+            "protein": 73.31,
+            "carbs": 63.74,
+            "fat": 55.15
+        }
+    },
+    {
+        "recipe_name": "Recipe_32",
+        "servings": 1,
+        "ingredients": [
+            {
+                "food": "lentils",
+                "grams": 289,
+                "co2": 0.14,
+                "calories": 335.24,
+                "protein": 26.01,
+                "carbs": 57.8,
+                "fat": 1.16
+            },
+            {
+                "food": "feta cheese",
+                "grams": 231,
+                "co2": 3.0,
+                "calories": 609.84,
+                "protein": 32.34,
+                "carbs": 9.24,
+                "fat": 48.51
+            },
+            {
+                "food": "beef",
+                "grams": 190,
+                "co2": 5.13,
+                "calories": 475.0,
+                "protein": 49.4,
+                "carbs": 0.0,
+                "fat": 28.5
+            },
+            {
+                "food": "pork",
+                "grams": 234,
+                "co2": 2.81,
+                "calories": 566.28,
+                "protein": 63.18,
+                "carbs": 0.0,
+                "fat": 32.76
+            },
+            {
+                "food": "tofu",
+                "grams": 283,
+                "co2": 0.57,
+                "calories": 215.08,
+                "protein": 22.64,
+                "carbs": 5.38,
+                "fat": 13.58
+            },
+            {
+                "food": "cucumber",
+                "grams": 268,
+                "co2": 0.13,
+                "calories": 42.88,
+                "protein": 1.88,
+                "carbs": 9.65,
+                "fat": 0.27
+            },
+            {
+                "food": "lettuce",
+                "grams": 113,
+                "co2": 0.02,
+                "calories": 16.95,
+                "protein": 1.58,
+                "carbs": 3.28,
+                "fat": 0.23
+            }
+        ],
+        "total_co2": 11.81,
+        "total_calories": 2261.27,
+        "total_protein": 197.03,
+        "total_carbs": 85.34,
+        "total_fat": 125.0,
+        "per_serving": {
+            "co2": 11.81,
+            "calories": 2261.27,
+            "protein": 197.03,
+            "carbs": 85.34,
+            "fat": 125.0
+        }
+    },
+    {
+        "recipe_name": "Recipe_33",
+        "servings": 4,
+        "ingredients": [
+            {
+                "food": "pasta",
+                "grams": 110,
+                "co2": 0.2,
+                "calories": 144.1,
+                "protein": 5.5,
+                "carbs": 27.5,
+                "fat": 1.21
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 147,
+                "co2": 0.15,
+                "calories": 42.63,
+                "protein": 2.06,
+                "carbs": 8.82,
+                "fat": 0.29
+            },
+            {
+                "food": "beans",
+                "grams": 191,
+                "co2": 0.11,
+                "calories": 662.77,
+                "protein": 40.11,
+                "carbs": 120.33,
+                "fat": 2.29
+            },
+            {
+                "food": "olive oil",
+                "grams": 247,
+                "co2": 1.48,
+                "calories": 2183.48,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 247.0
+            }
+        ],
+        "total_co2": 1.94,
+        "total_calories": 3032.98,
+        "total_protein": 47.67,
+        "total_carbs": 156.65,
+        "total_fat": 250.8,
+        "per_serving": {
+            "co2": 0.49,
+            "calories": 758.24,
+            "protein": 11.92,
+            "carbs": 39.16,
+            "fat": 62.7
+        }
+    },
+    {
+        "recipe_name": "Recipe_34",
+        "servings": 4,
+        "ingredients": [
+            {
+                "food": "tofu",
+                "grams": 280,
+                "co2": 0.56,
+                "calories": 212.8,
+                "protein": 22.4,
+                "carbs": 5.32,
+                "fat": 13.44
+            },
+            {
+                "food": "beef",
+                "grams": 68,
+                "co2": 1.84,
+                "calories": 170.0,
+                "protein": 17.68,
+                "carbs": 0.0,
+                "fat": 10.2
+            },
+            {
+                "food": "feta cheese",
+                "grams": 129,
+                "co2": 1.68,
+                "calories": 340.56,
+                "protein": 18.06,
+                "carbs": 5.16,
+                "fat": 27.09
+            },
+            {
+                "food": "pasta",
+                "grams": 235,
+                "co2": 0.42,
+                "calories": 307.85,
+                "protein": 11.75,
+                "carbs": 58.75,
+                "fat": 2.59
+            },
+            {
+                "food": "lentils",
+                "grams": 108,
+                "co2": 0.05,
+                "calories": 125.28,
+                "protein": 9.72,
+                "carbs": 21.6,
+                "fat": 0.43
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 214,
+                "co2": 0.21,
+                "calories": 62.06,
+                "protein": 3.0,
+                "carbs": 12.84,
+                "fat": 0.43
+            },
+            {
+                "food": "cucumber",
+                "grams": 158,
+                "co2": 0.08,
+                "calories": 25.28,
+                "protein": 1.11,
+                "carbs": 5.69,
+                "fat": 0.16
+            }
+        ],
+        "total_co2": 4.84,
+        "total_calories": 1243.83,
+        "total_protein": 83.71,
+        "total_carbs": 109.36,
+        "total_fat": 54.33,
+        "per_serving": {
+            "co2": 1.21,
+            "calories": 310.96,
+            "protein": 20.93,
+            "carbs": 27.34,
+            "fat": 13.58
+        }
+    },
+    {
+        "recipe_name": "Recipe_35",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "pork",
+                "grams": 94,
+                "co2": 1.13,
+                "calories": 227.48,
+                "protein": 25.38,
+                "carbs": 0.0,
+                "fat": 13.16
+            },
+            {
+                "food": "beef",
+                "grams": 165,
+                "co2": 4.46,
+                "calories": 412.5,
+                "protein": 42.9,
+                "carbs": 0.0,
+                "fat": 24.75
+            },
+            {
+                "food": "chicken breast",
+                "grams": 108,
+                "co2": 0.75,
+                "calories": 178.2,
+                "protein": 33.48,
+                "carbs": 0.0,
+                "fat": 3.89
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 198,
+                "co2": 0.2,
+                "calories": 57.42,
+                "protein": 2.77,
+                "carbs": 11.88,
+                "fat": 0.4
+            },
+            {
+                "food": "olive oil",
+                "grams": 102,
+                "co2": 0.61,
+                "calories": 901.68,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 102.0
+            },
+            {
+                "food": "tomato",
+                "grams": 93,
+                "co2": 0.1,
+                "calories": 16.74,
+                "protein": 0.84,
+                "carbs": 3.63,
+                "fat": 0.19
+            },
+            {
+                "food": "mushroom",
+                "grams": 168,
+                "co2": 0.05,
+                "calories": 36.96,
+                "protein": 5.04,
+                "carbs": 5.54,
+                "fat": 0.5
+            }
+        ],
+        "total_co2": 7.29,
+        "total_calories": 1830.98,
+        "total_protein": 110.41,
+        "total_carbs": 21.05,
+        "total_fat": 144.88,
+        "per_serving": {
+            "co2": 3.65,
+            "calories": 915.49,
+            "protein": 55.2,
+            "carbs": 10.53,
+            "fat": 72.44
+        }
+    },
+    {
+        "recipe_name": "Recipe_36",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "cheese",
+                "grams": 254,
+                "co2": 3.43,
+                "calories": 1021.08,
+                "protein": 63.5,
+                "carbs": 3.3,
+                "fat": 83.82
+            },
+            {
+                "food": "chicken breast",
+                "grams": 69,
+                "co2": 0.48,
+                "calories": 113.85,
+                "protein": 21.39,
+                "carbs": 0.0,
+                "fat": 2.48
+            },
+            {
+                "food": "pasta",
+                "grams": 86,
+                "co2": 0.15,
+                "calories": 112.66,
+                "protein": 4.3,
+                "carbs": 21.5,
+                "fat": 0.95
+            },
+            {
+                "food": "pork",
+                "grams": 211,
+                "co2": 2.53,
+                "calories": 510.62,
+                "protein": 56.97,
+                "carbs": 0.0,
+                "fat": 29.54
+            },
+            {
+                "food": "lettuce",
+                "grams": 261,
+                "co2": 0.05,
+                "calories": 39.15,
+                "protein": 3.65,
+                "carbs": 7.57,
+                "fat": 0.52
+            }
+        ],
+        "total_co2": 6.64,
+        "total_calories": 1797.36,
+        "total_protein": 149.81,
+        "total_carbs": 32.37,
+        "total_fat": 117.31,
+        "per_serving": {
+            "co2": 3.32,
+            "calories": 898.68,
+            "protein": 74.91,
+            "carbs": 16.19,
+            "fat": 58.66
+        }
+    },
+    {
+        "recipe_name": "Recipe_37",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "beef",
+                "grams": 90,
+                "co2": 2.43,
+                "calories": 225.0,
+                "protein": 23.4,
+                "carbs": 0.0,
+                "fat": 13.5
+            },
+            {
+                "food": "olive oil",
+                "grams": 178,
+                "co2": 1.07,
+                "calories": 1573.52,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 178.0
+            },
+            {
+                "food": "tofu",
+                "grams": 232,
+                "co2": 0.46,
+                "calories": 176.32,
+                "protein": 18.56,
+                "carbs": 4.41,
+                "fat": 11.14
+            },
+            {
+                "food": "cheese",
+                "grams": 90,
+                "co2": 1.21,
+                "calories": 361.8,
+                "protein": 22.5,
+                "carbs": 1.17,
+                "fat": 29.7
+            },
+            {
+                "food": "tomato",
+                "grams": 279,
+                "co2": 0.31,
+                "calories": 50.22,
+                "protein": 2.51,
+                "carbs": 10.88,
+                "fat": 0.56
+            }
+        ],
+        "total_co2": 5.48,
+        "total_calories": 2386.86,
+        "total_protein": 66.97,
+        "total_carbs": 16.46,
+        "total_fat": 232.89,
+        "per_serving": {
+            "co2": 2.74,
+            "calories": 1193.43,
+            "protein": 33.49,
+            "carbs": 8.23,
+            "fat": 116.45
+        }
+    },
+    {
+        "recipe_name": "Recipe_38",
+        "servings": 3,
+        "ingredients": [
+            {
+                "food": "chicken breast",
+                "grams": 93,
+                "co2": 0.64,
+                "calories": 153.45,
+                "protein": 28.83,
+                "carbs": 0.0,
+                "fat": 3.35
+            },
+            {
+                "food": "lentils",
+                "grams": 228,
+                "co2": 0.11,
+                "calories": 264.48,
+                "protein": 20.52,
+                "carbs": 45.6,
+                "fat": 0.91
+            },
+            {
+                "food": "cucumber",
+                "grams": 284,
+                "co2": 0.14,
+                "calories": 45.44,
+                "protein": 1.99,
+                "carbs": 10.22,
+                "fat": 0.28
+            },
+            {
+                "food": "beans",
+                "grams": 231,
+                "co2": 0.14,
+                "calories": 801.57,
+                "protein": 48.51,
+                "carbs": 145.53,
+                "fat": 2.77
+            },
+            {
+                "food": "chickpeas",
+                "grams": 140,
+                "co2": 0.1,
+                "calories": 229.6,
+                "protein": 12.6,
+                "carbs": 37.8,
+                "fat": 3.64
+            },
+            {
+                "food": "pasta",
+                "grams": 227,
+                "co2": 0.41,
+                "calories": 297.37,
+                "protein": 11.35,
+                "carbs": 56.75,
+                "fat": 2.5
+            },
+            {
+                "food": "lettuce",
+                "grams": 51,
+                "co2": 0.01,
+                "calories": 7.65,
+                "protein": 0.71,
+                "carbs": 1.48,
+                "fat": 0.1
+            }
+        ],
+        "total_co2": 1.55,
+        "total_calories": 1799.56,
+        "total_protein": 124.51,
+        "total_carbs": 297.38,
+        "total_fat": 13.56,
+        "per_serving": {
+            "co2": 0.52,
+            "calories": 599.85,
+            "protein": 41.5,
+            "carbs": 99.13,
+            "fat": 4.52
+        }
+    },
+    {
+        "recipe_name": "Recipe_39",
+        "servings": 5,
+        "ingredients": [
+            {
+                "food": "lentils",
+                "grams": 124,
+                "co2": 0.06,
+                "calories": 143.84,
+                "protein": 11.16,
+                "carbs": 24.8,
+                "fat": 0.5
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 196,
+                "co2": 0.2,
+                "calories": 56.84,
+                "protein": 2.74,
+                "carbs": 11.76,
+                "fat": 0.39
+            },
+            {
+                "food": "cheese",
+                "grams": 122,
+                "co2": 1.65,
+                "calories": 490.44,
+                "protein": 30.5,
+                "carbs": 1.59,
+                "fat": 40.26
+            },
+            {
+                "food": "pasta",
+                "grams": 194,
+                "co2": 0.35,
+                "calories": 254.14,
+                "protein": 9.7,
+                "carbs": 48.5,
+                "fat": 2.13
+            },
+            {
+                "food": "mushroom",
+                "grams": 257,
+                "co2": 0.08,
+                "calories": 56.54,
+                "protein": 7.71,
+                "carbs": 8.48,
+                "fat": 0.77
+            }
+        ],
+        "total_co2": 2.33,
+        "total_calories": 1001.8,
+        "total_protein": 61.81,
+        "total_carbs": 95.13,
+        "total_fat": 44.05,
+        "per_serving": {
+            "co2": 0.47,
+            "calories": 200.36,
+            "protein": 12.36,
+            "carbs": 19.03,
+            "fat": 8.81
+        }
+    },
+    {
+        "recipe_name": "Recipe_40",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "beef",
+                "grams": 121,
+                "co2": 3.27,
+                "calories": 302.5,
+                "protein": 31.46,
+                "carbs": 0.0,
+                "fat": 18.15
+            },
+            {
+                "food": "cucumber",
+                "grams": 216,
+                "co2": 0.11,
+                "calories": 34.56,
+                "protein": 1.51,
+                "carbs": 7.78,
+                "fat": 0.22
+            },
+            {
+                "food": "pasta",
+                "grams": 252,
+                "co2": 0.45,
+                "calories": 330.12,
+                "protein": 12.6,
+                "carbs": 63.0,
+                "fat": 2.77
+            },
+            {
+                "food": "tofu",
+                "grams": 176,
+                "co2": 0.35,
+                "calories": 133.76,
+                "protein": 14.08,
+                "carbs": 3.34,
+                "fat": 8.45
+            },
+            {
+                "food": "chickpeas",
+                "grams": 267,
+                "co2": 0.19,
+                "calories": 437.88,
+                "protein": 24.03,
+                "carbs": 72.09,
+                "fat": 6.94
+            },
+            {
+                "food": "pork",
+                "grams": 211,
+                "co2": 2.53,
+                "calories": 510.62,
+                "protein": 56.97,
+                "carbs": 0.0,
+                "fat": 29.54
+            },
+            {
+                "food": "chicken breast",
+                "grams": 192,
+                "co2": 1.32,
+                "calories": 316.8,
+                "protein": 59.52,
+                "carbs": 0.0,
+                "fat": 6.91
+            },
+            {
+                "food": "lentils",
+                "grams": 156,
+                "co2": 0.08,
+                "calories": 180.96,
+                "protein": 14.04,
+                "carbs": 31.2,
+                "fat": 0.62
+            }
+        ],
+        "total_co2": 8.3,
+        "total_calories": 2247.2,
+        "total_protein": 214.21,
+        "total_carbs": 177.41,
+        "total_fat": 73.6,
+        "per_serving": {
+            "co2": 4.15,
+            "calories": 1123.6,
+            "protein": 107.11,
+            "carbs": 88.7,
+            "fat": 36.8
+        }
+    },
+    {
+        "recipe_name": "Recipe_41",
+        "servings": 4,
+        "ingredients": [
+            {
+                "food": "lettuce",
+                "grams": 162,
+                "co2": 0.03,
+                "calories": 24.3,
+                "protein": 2.27,
+                "carbs": 4.7,
+                "fat": 0.32
+            },
+            {
+                "food": "beef",
+                "grams": 294,
+                "co2": 7.94,
+                "calories": 735.0,
+                "protein": 76.44,
+                "carbs": 0.0,
+                "fat": 44.1
+            },
+            {
+                "food": "tomato",
+                "grams": 212,
+                "co2": 0.23,
+                "calories": 38.16,
+                "protein": 1.91,
+                "carbs": 8.27,
+                "fat": 0.42
+            },
+            {
+                "food": "chicken breast",
+                "grams": 165,
+                "co2": 1.14,
+                "calories": 272.25,
+                "protein": 51.15,
+                "carbs": 0.0,
+                "fat": 5.94
+            }
+        ],
+        "total_co2": 9.34,
+        "total_calories": 1069.71,
+        "total_protein": 131.77,
+        "total_carbs": 12.97,
+        "total_fat": 50.79,
+        "per_serving": {
+            "co2": 2.34,
+            "calories": 267.43,
+            "protein": 32.94,
+            "carbs": 3.24,
+            "fat": 12.7
+        }
+    },
+    {
+        "recipe_name": "Recipe_42",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "feta cheese",
+                "grams": 160,
+                "co2": 2.08,
+                "calories": 422.4,
+                "protein": 22.4,
+                "carbs": 6.4,
+                "fat": 33.6
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 71,
+                "co2": 0.07,
+                "calories": 20.59,
+                "protein": 0.99,
+                "carbs": 4.26,
+                "fat": 0.14
+            },
+            {
+                "food": "mushroom",
+                "grams": 166,
+                "co2": 0.05,
+                "calories": 36.52,
+                "protein": 4.98,
+                "carbs": 5.48,
+                "fat": 0.5
+            },
+            {
+                "food": "tofu",
+                "grams": 71,
+                "co2": 0.14,
+                "calories": 53.96,
+                "protein": 5.68,
+                "carbs": 1.35,
+                "fat": 3.41
+            },
+            {
+                "food": "tomato",
+                "grams": 71,
+                "co2": 0.08,
+                "calories": 12.78,
+                "protein": 0.64,
+                "carbs": 2.77,
+                "fat": 0.14
+            }
+        ],
+        "total_co2": 2.42,
+        "total_calories": 546.25,
+        "total_protein": 34.69,
+        "total_carbs": 20.26,
+        "total_fat": 37.79,
+        "per_serving": {
+            "co2": 1.21,
+            "calories": 273.12,
+            "protein": 17.35,
+            "carbs": 10.13,
+            "fat": 18.9
+        }
+    },
+    {
+        "recipe_name": "Recipe_43",
+        "servings": 3,
+        "ingredients": [
+            {
+                "food": "pasta",
+                "grams": 226,
+                "co2": 0.41,
+                "calories": 296.06,
+                "protein": 11.3,
+                "carbs": 56.5,
+                "fat": 2.49
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 67,
+                "co2": 0.07,
+                "calories": 19.43,
+                "protein": 0.94,
+                "carbs": 4.02,
+                "fat": 0.13
+            },
+            {
+                "food": "pork",
+                "grams": 293,
+                "co2": 3.52,
+                "calories": 709.06,
+                "protein": 79.11,
+                "carbs": 0.0,
+                "fat": 41.02
+            },
+            {
+                "food": "tofu",
+                "grams": 79,
+                "co2": 0.16,
+                "calories": 60.04,
+                "protein": 6.32,
+                "carbs": 1.5,
+                "fat": 3.79
+            },
+            {
+                "food": "tomato",
+                "grams": 215,
+                "co2": 0.24,
+                "calories": 38.7,
+                "protein": 1.94,
+                "carbs": 8.38,
+                "fat": 0.43
+            },
+            {
+                "food": "lentils",
+                "grams": 71,
+                "co2": 0.04,
+                "calories": 82.36,
+                "protein": 6.39,
+                "carbs": 14.2,
+                "fat": 0.28
+            },
+            {
+                "food": "feta cheese",
+                "grams": 70,
+                "co2": 0.91,
+                "calories": 184.8,
+                "protein": 9.8,
+                "carbs": 2.8,
+                "fat": 14.7
+            }
+        ],
+        "total_co2": 5.33,
+        "total_calories": 1390.45,
+        "total_protein": 115.79,
+        "total_carbs": 87.41,
+        "total_fat": 62.85,
+        "per_serving": {
+            "co2": 1.78,
+            "calories": 463.48,
+            "protein": 38.6,
+            "carbs": 29.14,
+            "fat": 20.95
+        }
+    },
+    {
+        "recipe_name": "Recipe_44",
+        "servings": 6,
+        "ingredients": [
+            {
+                "food": "tofu",
+                "grams": 127,
+                "co2": 0.25,
+                "calories": 96.52,
+                "protein": 10.16,
+                "carbs": 2.41,
+                "fat": 6.1
+            },
+            {
+                "food": "chicken breast",
+                "grams": 80,
+                "co2": 0.55,
+                "calories": 132.0,
+                "protein": 24.8,
+                "carbs": 0.0,
+                "fat": 2.88
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 134,
+                "co2": 0.13,
+                "calories": 38.86,
+                "protein": 1.88,
+                "carbs": 8.04,
+                "fat": 0.27
+            },
+            {
+                "food": "cucumber",
+                "grams": 207,
+                "co2": 0.1,
+                "calories": 33.12,
+                "protein": 1.45,
+                "carbs": 7.45,
+                "fat": 0.21
+            }
+        ],
+        "total_co2": 1.04,
+        "total_calories": 300.5,
+        "total_protein": 38.28,
+        "total_carbs": 17.9,
+        "total_fat": 9.45,
+        "per_serving": {
+            "co2": 0.17,
+            "calories": 50.08,
+            "protein": 6.38,
+            "carbs": 2.98,
+            "fat": 1.58
+        }
+    },
+    {
+        "recipe_name": "Recipe_45",
+        "servings": 6,
+        "ingredients": [
+            {
+                "food": "beef",
+                "grams": 75,
+                "co2": 2.02,
+                "calories": 187.5,
+                "protein": 19.5,
+                "carbs": 0.0,
+                "fat": 11.25
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 64,
+                "co2": 0.06,
+                "calories": 18.56,
+                "protein": 0.9,
+                "carbs": 3.84,
+                "fat": 0.13
+            },
+            {
+                "food": "feta cheese",
+                "grams": 72,
+                "co2": 0.94,
+                "calories": 190.08,
+                "protein": 10.08,
+                "carbs": 2.88,
+                "fat": 15.12
+            },
+            {
+                "food": "pork",
+                "grams": 175,
+                "co2": 2.1,
+                "calories": 423.5,
+                "protein": 47.25,
+                "carbs": 0.0,
+                "fat": 24.5
+            },
+            {
+                "food": "cucumber",
+                "grams": 76,
+                "co2": 0.04,
+                "calories": 12.16,
+                "protein": 0.53,
+                "carbs": 2.74,
+                "fat": 0.08
+            }
+        ],
+        "total_co2": 5.16,
+        "total_calories": 831.8,
+        "total_protein": 78.26,
+        "total_carbs": 9.46,
+        "total_fat": 51.07,
+        "per_serving": {
+            "co2": 0.86,
+            "calories": 138.63,
+            "protein": 13.04,
+            "carbs": 1.58,
+            "fat": 8.51
+        }
+    },
+    {
+        "recipe_name": "Recipe_46",
+        "servings": 2,
+        "ingredients": [
+            {
+                "food": "mushroom",
+                "grams": 122,
+                "co2": 0.04,
+                "calories": 26.84,
+                "protein": 3.66,
+                "carbs": 4.03,
+                "fat": 0.37
+            },
+            {
+                "food": "cheese",
+                "grams": 250,
+                "co2": 3.38,
+                "calories": 1005.0,
+                "protein": 62.5,
+                "carbs": 3.25,
+                "fat": 82.5
+            },
+            {
+                "food": "feta cheese",
+                "grams": 114,
+                "co2": 1.48,
+                "calories": 300.96,
+                "protein": 15.96,
+                "carbs": 4.56,
+                "fat": 23.94
+            },
+            {
+                "food": "tomato",
+                "grams": 93,
+                "co2": 0.1,
+                "calories": 16.74,
+                "protein": 0.84,
+                "carbs": 3.63,
+                "fat": 0.19
+            },
+            {
+                "food": "olive oil",
+                "grams": 270,
+                "co2": 1.62,
+                "calories": 2386.8,
+                "protein": 0.0,
+                "carbs": 0.0,
+                "fat": 270.0
+            }
+        ],
+        "total_co2": 6.62,
+        "total_calories": 3736.34,
+        "total_protein": 82.96,
+        "total_carbs": 15.46,
+        "total_fat": 376.99,
+        "per_serving": {
+            "co2": 3.31,
+            "calories": 1868.17,
+            "protein": 41.48,
+            "carbs": 7.73,
+            "fat": 188.5
+        }
+    },
+    {
+        "recipe_name": "Recipe_47",
+        "servings": 6,
+        "ingredients": [
+            {
+                "food": "chickpeas",
+                "grams": 128,
+                "co2": 0.09,
+                "calories": 209.92,
+                "protein": 11.52,
+                "carbs": 34.56,
+                "fat": 3.33
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 74,
+                "co2": 0.07,
+                "calories": 21.46,
+                "protein": 1.04,
+                "carbs": 4.44,
+                "fat": 0.15
+            },
+            {
+                "food": "tofu",
+                "grams": 133,
+                "co2": 0.27,
+                "calories": 101.08,
+                "protein": 10.64,
+                "carbs": 2.53,
+                "fat": 6.38
+            },
+            {
+                "food": "pasta",
+                "grams": 176,
+                "co2": 0.32,
+                "calories": 230.56,
+                "protein": 8.8,
+                "carbs": 44.0,
+                "fat": 1.94
+            },
+            {
+                "food": "chicken breast",
+                "grams": 253,
+                "co2": 1.75,
+                "calories": 417.45,
+                "protein": 78.43,
+                "carbs": 0.0,
+                "fat": 9.11
+            },
+            {
+                "food": "lentils",
+                "grams": 243,
+                "co2": 0.12,
+                "calories": 281.88,
+                "protein": 21.87,
+                "carbs": 48.6,
+                "fat": 0.97
+            }
+        ],
+        "total_co2": 2.61,
+        "total_calories": 1262.35,
+        "total_protein": 132.3,
+        "total_carbs": 134.13,
+        "total_fat": 21.88,
+        "per_serving": {
+            "co2": 0.44,
+            "calories": 210.39,
+            "protein": 22.05,
+            "carbs": 22.35,
+            "fat": 3.65
+        }
+    },
+    {
+        "recipe_name": "Recipe_48",
+        "servings": 5,
+        "ingredients": [
+            {
+                "food": "cheese",
+                "grams": 276,
+                "co2": 3.73,
+                "calories": 1109.52,
+                "protein": 69.0,
+                "carbs": 3.59,
+                "fat": 91.08
+            },
+            {
+                "food": "lentils",
+                "grams": 269,
+                "co2": 0.13,
+                "calories": 312.04,
+                "protein": 24.21,
+                "carbs": 53.8,
+                "fat": 1.08
+            },
+            {
+                "food": "pork",
+                "grams": 150,
+                "co2": 1.8,
+                "calories": 363.0,
+                "protein": 40.5,
+                "carbs": 0.0,
+                "fat": 21.0
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 300,
+                "co2": 0.3,
+                "calories": 87.0,
+                "protein": 4.2,
+                "carbs": 18.0,
+                "fat": 0.6
+            },
+            {
+                "food": "mushroom",
+                "grams": 185,
+                "co2": 0.06,
+                "calories": 40.7,
+                "protein": 5.55,
+                "carbs": 6.1,
+                "fat": 0.56
+            },
+            {
+                "food": "beans",
+                "grams": 91,
+                "co2": 0.05,
+                "calories": 315.77,
+                "protein": 19.11,
+                "carbs": 57.33,
+                "fat": 1.09
+            },
+            {
+                "food": "tofu",
+                "grams": 186,
+                "co2": 0.37,
+                "calories": 141.36,
+                "protein": 14.88,
+                "carbs": 3.53,
+                "fat": 8.93
+            },
+            {
+                "food": "chickpeas",
+                "grams": 194,
+                "co2": 0.14,
+                "calories": 318.16,
+                "protein": 17.46,
+                "carbs": 52.38,
+                "fat": 5.04
+            }
+        ],
+        "total_co2": 6.58,
+        "total_calories": 2687.55,
+        "total_protein": 194.91,
+        "total_carbs": 194.74,
+        "total_fat": 129.38,
+        "per_serving": {
+            "co2": 1.32,
+            "calories": 537.51,
+            "protein": 38.98,
+            "carbs": 38.95,
+            "fat": 25.88
+        }
+    },
+    {
+        "recipe_name": "Recipe_49",
+        "servings": 4,
+        "ingredients": [
+            {
+                "food": "mushroom",
+                "grams": 79,
+                "co2": 0.02,
+                "calories": 17.38,
+                "protein": 2.37,
+                "carbs": 2.61,
+                "fat": 0.24
+            },
+            {
+                "food": "tofu",
+                "grams": 99,
+                "co2": 0.2,
+                "calories": 75.24,
+                "protein": 7.92,
+                "carbs": 1.88,
+                "fat": 4.75
+            },
+            {
+                "food": "beans",
+                "grams": 274,
+                "co2": 0.16,
+                "calories": 950.78,
+                "protein": 57.54,
+                "carbs": 172.62,
+                "fat": 3.29
+            },
+            {
+                "food": "tomato sauce",
+                "grams": 203,
+                "co2": 0.2,
+                "calories": 58.87,
+                "protein": 2.84,
+                "carbs": 12.18,
+                "fat": 0.41
+            },
+            {
+                "food": "tomato",
+                "grams": 257,
+                "co2": 0.28,
+                "calories": 46.26,
+                "protein": 2.31,
+                "carbs": 10.02,
+                "fat": 0.51
+            },
+            {
+                "food": "chicken breast",
+                "grams": 182,
+                "co2": 1.26,
+                "calories": 300.3,
+                "protein": 56.42,
+                "carbs": 0.0,
+                "fat": 6.55
+            },
+            {
+                "food": "pork",
+                "grams": 196,
+                "co2": 2.35,
+                "calories": 474.32,
+                "protein": 52.92,
+                "carbs": 0.0,
+                "fat": 27.44
+            },
+            {
+                "food": "pasta",
+                "grams": 236,
+                "co2": 0.42,
+                "calories": 309.16,
+                "protein": 11.8,
+                "carbs": 59.0,
+                "fat": 2.6
+            }
+        ],
+        "total_co2": 4.9,
+        "total_calories": 2232.31,
+        "total_protein": 194.13,
+        "total_carbs": 258.31,
+        "total_fat": 45.78,
+        "per_serving": {
+            "co2": 1.23,
+            "calories": 558.08,
+            "protein": 48.53,
+            "carbs": 64.58,
+            "fat": 11.45
+        }
+    },
+    {
+        "recipe_name": "Recipe_50",
+        "servings": 3,
+        "ingredients": [
+            {
+                "food": "mushroom",
+                "grams": 219,
+                "co2": 0.07,
+                "calories": 48.18,
+                "protein": 6.57,
+                "carbs": 7.23,
+                "fat": 0.66
+            },
+            {
+                "food": "chickpeas",
+                "grams": 134,
+                "co2": 0.09,
+                "calories": 219.76,
+                "protein": 12.06,
+                "carbs": 36.18,
+                "fat": 3.48
+            },
+            {
+                "food": "lettuce",
+                "grams": 219,
+                "co2": 0.04,
+                "calories": 32.85,
+                "protein": 3.07,
+                "carbs": 6.35,
+                "fat": 0.44
+            },
+            {
+                "food": "tomato",
+                "grams": 269,
+                "co2": 0.3,
+                "calories": 48.42,
+                "protein": 2.42,
+                "carbs": 10.49,
+                "fat": 0.54
+            },
+            {
+                "food": "beans",
+                "grams": 226,
+                "co2": 0.14,
+                "calories": 784.22,
+                "protein": 47.46,
+                "carbs": 142.38,
+                "fat": 2.71
+            },
+            {
+                "food": "pork",
+                "grams": 130,
+                "co2": 1.56,
+                "calories": 314.6,
+                "protein": 35.1,
+                "carbs": 0.0,
+                "fat": 18.2
+            }
+        ],
+        "total_co2": 2.19,
+        "total_calories": 1448.03,
+        "total_protein": 106.68,
+        "total_carbs": 202.63,
+        "total_fat": 26.03,
+        "per_serving": {
+            "co2": 0.73,
+            "calories": 482.68,
+            "protein": 35.56,
+            "carbs": 67.54,
+            "fat": 8.68
+        }
+    }
+]

@@ -1,0 +1,34 @@
+body{
+background:#f4f7fb;
+font-family:Segoe UI;
+}
+
+.title{
+font-weight:700;
+color:#2c3e50;
+}
+
+.subtitle{
+color:#6c757d;
+margin-bottom:30px;
+}
+
+.card{
+border:none;
+border-radius:15px;
+}
+
+.metric-card{
+padding:20px;
+text-align:center;
+margin-bottom:20px;
+}
+
+.metric-card h2{
+font-size:40px;
+color:#27ae60;
+}
+
+canvas{
+margin-top:20px;
+}
