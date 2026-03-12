@@ -21,3 +21,16 @@ CO2 MyPlate is a Python Flask web application that allows users to analyze the e
 ```bash
 git clone https://github.com/Gjorgji13/CO2AppAdvisor.git
 cd CO2AppAdvisor
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+python app.py
+
